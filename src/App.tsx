@@ -13,6 +13,8 @@ import ClientProjects from './components/ClientProjects'
 import Portfolio from './components/Portfolio'
 import MyApplications from './components/MyApplications'
 import IncomingApplications from './components/IncomingApplications'
+import StudentProfile from './components/StudentProfile'
+import ClientProfile from './components/ClientProfile'
 
 function App() {
   return (
@@ -27,9 +29,11 @@ function App() {
         <Route path="/my-projects" element={<MyProjects />} />
         <Route path="/my-applications" element={<MyApplications />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/student-profile" element={<StudentProfile />} />
         <Route path="/client-projects" element={<ClientProjects />} />
         <Route path="/post-project" element={<PostProject />} />
         <Route path="/incoming-applications" element={<IncomingApplications />} />
+        <Route path="/client-profile" element={<ClientProfile />} />
         <Route path="/project/:id" element={<ProjectDetail />} />
       </Routes>
     </Router>

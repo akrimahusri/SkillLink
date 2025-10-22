@@ -116,6 +116,8 @@ export default function Portfolio() {
       navigate('/browse-projects');
     } else if (menuId === 'proyek-saya') {
       navigate('/my-projects');
+    } else if (menuId === 'profil') {
+      navigate('/student-profile');
     }
   };
 

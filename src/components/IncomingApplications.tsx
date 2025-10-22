@@ -164,6 +164,8 @@ export default function IncomingApplications() {
       navigate('/post-project');
     } else if (menuId === 'my-projects') {
       navigate('/client-projects');
+    } else if (menuId === 'profile') {
+      navigate('/client-profile');
     }
   };
 

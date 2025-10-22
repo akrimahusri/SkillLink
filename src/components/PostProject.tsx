@@ -52,6 +52,8 @@ export default function PostProject() {
       navigate('/post-project');
     } else if (menuId === 'applications') {
       navigate('/incoming-applications');
+    } else if (menuId === 'profile') {
+      navigate('/client-profile');
     }
   };
 

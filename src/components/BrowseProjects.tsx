@@ -229,6 +229,8 @@ export default function BrowseProjects() {
       navigate('/my-projects');
     } else if (menuId === 'portfolio') {
       navigate('/portfolio');
+    } else if (menuId === 'profil') {
+      navigate('/student-profile');
     }
   };
 

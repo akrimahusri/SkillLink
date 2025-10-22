@@ -23,6 +23,8 @@ export default function StudentDashboard() {
       navigate('/my-projects');
     } else if (menuId === 'portfolio') {
       navigate('/portfolio');
+    } else if (menuId === 'profil') {
+      navigate('/student-profile');
     }
   };
 
@@ -37,7 +39,7 @@ export default function StudentDashboard() {
       <div className="w-64 bg-white border-r border-gray-200 flex flex-col">
         {/* Logo */}
         <div className="p-6 border-b border-gray-200">
-          <h1 className="text-2xl font-bold text-blue-600">SkillLink</h1>
+          <h1 className="text-2xl font-bold text-blue-600 cursor-pointer" onClick={() => navigate('/')}>SkillLink</h1>
           <p className="text-xs text-gray-500 mt-1">Mahasiswa</p>
         </div>
 

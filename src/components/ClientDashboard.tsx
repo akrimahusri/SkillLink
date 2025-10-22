@@ -23,6 +23,8 @@ export default function ClientDashboard() {
       navigate('/client-projects');
     } else if (menuId === 'applications') {
       navigate('/incoming-applications');
+    } else if (menuId === 'profile') {
+      navigate('/client-profile');
     }
   };
 

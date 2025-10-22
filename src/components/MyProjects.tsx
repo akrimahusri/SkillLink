@@ -109,6 +109,8 @@ export default function MyProjects() {
       navigate('/browse-projects');
     } else if (menuId === 'portfolio') {
       navigate('/portfolio');
+    } else if (menuId === 'profil') {
+      navigate('/student-profile');
     }
   };
 
