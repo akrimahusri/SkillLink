@@ -52,37 +52,14 @@ export default function SkillLinkLanding() {
                 </button>
               </div>
             </div>
-            <div>
-              <div className="bg-white rounded-xl p-6 shadow-xl">
-                <div className="space-y-4">
-                  <div className="border-l-4 border-blue-500 pl-4">
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <div className="font-semibold text-gray-900">Desain UI/UX Mobile App</div>
-                        <div className="text-sm text-gray-500">3 mahasiswa diperlukan</div>
-                      </div>
-                      <div className="text-blue-600 font-bold">Rp 2.5jt</div>
-                    </div>
-                  </div>
-                  <div className="border-l-4 border-green-500 pl-4">
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <div className="font-semibold text-gray-900">Website E-Commerce</div>
-                        <div className="text-sm text-gray-500">React & Node.js</div>
-                      </div>
-                      <div className="text-green-600 font-bold">Rp 5jt</div>
-                    </div>
-                  </div>
-                  <div className="border-l-4 border-purple-500 pl-4">
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <div className="font-semibold text-gray-900">Content Writing Blog</div>
-                        <div className="text-sm text-gray-500">SEO & Copywriting</div>
-                      </div>
-                      <div className="text-purple-600 font-bold">Rp 1jt</div>
-                    </div>
-                  </div>
-                </div>
+            <div className="flex items-center justify-center">
+              <div className="relative w-full scale-[2] transform">
+                {/* Ganti 'hero-illustration.png' dengan nama file gambar Anda */}
+                <img 
+                  src="/hero-illustration.png" 
+                  alt="SkillLink Platform Illustration"
+                  className="w-full h-auto drop-shadow-2xl"
+                />
               </div>
             </div>
           </div>
