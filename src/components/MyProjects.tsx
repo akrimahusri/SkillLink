@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Home, Search, Briefcase, FolderOpen, MessageSquare, User, LogOut, Bell, Clock, DollarSign, CheckCircle, AlertCircle, XCircle } from 'lucide-react';
+import { Home, Search, Briefcase, FolderOpen, MessageSquare, User, LogOut, Bell, Clock, CheckCircle, AlertCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 export default function MyProjects() {

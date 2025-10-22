@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Users, Briefcase, TrendingUp, CheckCircle, ArrowRight, Star } from 'lucide-react';
+import { Users, TrendingUp, CheckCircle, ArrowRight, Star } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 export default function SkillLinkLanding() {
