@@ -21,6 +21,8 @@ export default function ClientDashboard() {
       navigate('/post-project');
     } else if (menuId === 'my-projects') {
       navigate('/client-projects');
+    } else if (menuId === 'applications') {
+      navigate('/incoming-applications');
     }
   };
 

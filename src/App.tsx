@@ -12,6 +12,7 @@ import ProjectDetail from './components/ProjectDetail'
 import ClientProjects from './components/ClientProjects'
 import Portfolio from './components/Portfolio'
 import MyApplications from './components/MyApplications'
+import IncomingApplications from './components/IncomingApplications'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/client-projects" element={<ClientProjects />} />
         <Route path="/post-project" element={<PostProject />} />
+        <Route path="/incoming-applications" element={<IncomingApplications />} />
         <Route path="/project/:id" element={<ProjectDetail />} />
       </Routes>
     </Router>

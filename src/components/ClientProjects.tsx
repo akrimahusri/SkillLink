@@ -128,6 +128,8 @@ export default function ClientProjects() {
       navigate('/client-dashboard');
     } else if (menuId === 'post-project') {
       navigate('/post-project');
+    } else if (menuId === 'applications') {
+      navigate('/incoming-applications');
     }
   };
 

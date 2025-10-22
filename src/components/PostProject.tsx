@@ -50,6 +50,8 @@ export default function PostProject() {
       navigate('/client-projects');
     } else if (menuId === 'post-project') {
       navigate('/post-project');
+    } else if (menuId === 'applications') {
+      navigate('/incoming-applications');
     }
   };
 
